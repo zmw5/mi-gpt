@@ -14,22 +14,22 @@ const masterProfile = `
 
 export default {
   bot: {
-    name: "傻妞",
+    name: "钰钰",
     profile: botProfile,
   },
   master: {
-    name: "陆小千",
+    name: "芝麻丸",
     profile: masterProfile,
   },
   speaker: {
     // 小米 ID
-    userId: "987654321", // 注意：不是手机号或邮箱，请在「个人信息」-「小米 ID」查看
+    userId: "2270269302", // 注意：不是手机号或邮箱，请在「个人信息」-「小米 ID」查看
     // 账号密码
-    password: "123456",
+    password: "zmw410313",
     // 小爱音箱 DID 或在米家中设置的名称
-    did: "小爱音箱Pro",
+    did: "小爱音箱",
     // 当消息以下面的关键词开头时，会调用 AI 来回复消息
-    callAIKeywords: ["请", "你", "傻妞"],
+    callAIKeywords: ["请", "你", "钰钰"],
     // 当消息以下面的关键词开头时，会进入 AI 唤醒状态
     wakeUpKeywords: ["打开", "进入", "召唤"],
     // 当消息以下面的关键词开头时，会退出 AI 唤醒状态
